@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>onmouse over</title>
+    </head>
+<body>
+<h1>hellow this </h1>
+<h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">programming is good</h1>
+<script>
+function mouseOver() {
+  document.getElementById("demo").style.color = "red";
+}
+function mouseOut() {
+  document.getElementById("demo").style.color = "pink";
+}
+  function myFunction() {
+  document.getElementById("demo").innerHTML = ("isaya nicas");
+}
+</script>
+<button onclick="myFunction()">Click me</button>
+</body>
+</html>
